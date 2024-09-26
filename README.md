@@ -4,7 +4,7 @@ Welcome to my personal portfolio! I'm a second-year student studying software en
 ## About Me
 As an employee, I offer high-level communication, commitment to my projects, experience collaborating in various work teams, allowing me to fit seamlessly in group-work dynamics.
 
-##Skills
+## Skills
 - Java
 - Python
 - Html and CSS
