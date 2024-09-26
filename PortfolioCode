@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<title>Tobanimi's Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, h1, h2, h3, h4, h5, h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+.bgimg {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('https://static01.nyt.com/athletic/uploads/wp/2022/12/17151930/GettyImages-1402223229-scaled.jpg');
+  min-height: 100%;
+}
+.HeroSegment, .AboutMe, .WorkExperience, .Contact {
+  padding: 64px;
+  margin: 20px 0;
+}
+.HeroSegment h1, .AboutMe h1, .WorkExperience h1, .Contact h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.HeroSegment p, .AboutMe p, .WorkExperience p, .Contact p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+</style>
+<body>
+
+<nav class="w3-sidebar w3-hide-medium w3-hide-small" style="width:40%">
+  <div class="bgimg"></div>
+</nav>
+
+<nav class="w3-sidebar w3-black w3-animate-right w3-xxlarge" style="display:none;padding-top:150px;right:0;z-index:2" id="mySidebar">
+  <a href="javascript:void(0)" onclick="closeNav()" class="w3-button w3-black w3-xxxlarge w3-display-topright" style="padding:0 12px;">
+    <i class="fa fa-remove"></i>
+  </a>
+  <div class="w3-bar-block w3-center">
+    <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Home</a>
+    <a href="#portfolio" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Portfolio</a>
+    <a href="#about" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">About</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Contact</a>
+  </div>
+</nav>
+
+<div class="w3-main w3-padding-large" style="margin-left:40%">
+
+  <span class="w3-button w3-top w3-white w3-xxlarge w3-text-grey w3-hover-text-black" style="width:auto;right:0;" onclick="openNav()"><i class="fa fa-bars"></i></span>
+
+  <div class="HeroSegment w3-container w3-center" id="home">
+    <h1>Hero Section</h1>
+    <p>Hello, I am Tobanimi. I'm a second-year student studying software engineering at the University of Western Ontario. I hold a passion for music, sports, and for technology and advancements in AI.</p>
+    <p>As an employee, I offer high-level communication, commitment to my projects, experience collaborating in various work teams, allowing me to fit seamlessly in group-work dynamics.</p>
+  </div>
+
+  <div class="AboutMe w3-padding-32 w3-content" id="about">
+    <h1>About Me</h1>
+    <div class="card">
+      <img src="https://static01.nyt.com/athletic/uploads/wp/2022/12/17151930/GettyImages-1402223229-scaled.jpg" alt="About Image" style="width:100%">
+      <div class="container">
+        <p>Entering University I had the goal of graduating with as much knowledge regarding software development as was attainable.</p>
+        <p>My work terms spent working as a student counsellor, or most recently as a Student Advancement Researcher at SickKids have allowed me to learn about how to work within a group environment to provide meaningful work. I hope to bring forth this gained knowledge into my work in software development.</p>
+        <p><button class="button w3-button w3-light-grey w3-padding-large">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="WorkExperience w3-padding-32 w3-content" id="experience">
+    <h1>Work Experience</h1>
+    <p>SickKids Student Advancement Researcher</p>
+  </div>
+
+  <div class="Contact w3-padding-32 w3-content w3-text-grey" id="contact">
+    <h1>Contact</h1>
+    <p>Address: Fanshawe Park Rd E</p>
+    <p>Email: tapara2@uwo.ca</p>
+    <p>Phone Number: 3652920570</p>
+    <p>GitHub Profile: Tapara2</p>
+  </div>
+
+  <footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <p class="w3-medium">Powered by W3.CSS</p>
+  </footer>
+
+</div>
+
+<script>
+function openNav() {
+  document.getElementById("mySidebar").style.width = "60%";
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>
