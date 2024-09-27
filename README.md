@@ -10,10 +10,10 @@ My work terms spent working as a student counsellor, or most recently as a Stude
 - Python
 - Html and CSS
 
-##Contact
-Address: 399 Stamford Bridge E
-Email: tapara2@uwo.ca
-Phone Number: 3679994989
-GitHub Profile: Tapara2
+## Contact ME
+- Address: 399 Stamford Bridge E
+- Email: tapara2@uwo.ca
+- Phone Number: 3679994989
+- GitHub Profile: Tapara2
 
 ![The GOAT](https://images.performgroup.com/di/library/group_content_la/2a/a9/stephen-curry-golden-state-warriors-nba-finals-2018_1u17ty8yi1m6q10ytofk0uessn.jpg?t=1235103493)
