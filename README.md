@@ -11,7 +11,7 @@ My work terms spent working as a student counsellor, or most recently as a Stude
 - Html and CSS
 
 ##Contact
-Address: 399 Stamford Bridge E</p>
+Address: 399 Stamford Bridge E
 Email: tapara2@uwo.ca
 Phone Number: 3679994989
 GitHub Profile: Tapara2
